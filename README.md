@@ -36,6 +36,39 @@ Docker creates consistent environments for applications, ensuring they work the 
 
 ---
 
+## Getting a Trial
+
+To get started with Docker, follow these steps:
+
+1. **Install Docker:**
+   - [Docker Installation Guide](https://docs.docker.com/get-docker/)
+
+2. **Create a Dockerfile:**
+   - Write a Dockerfile for your application, specifying the base image and necessary configurations.
+
+3. **Build Your Image:**
+   - Use the `docker build` command to build your Docker image from the Dockerfile.
+     ```
+     docker build -t your-image-name .
+     ```
+
+4. **Run Your Container:**
+   - Run your application in a container using the `docker run` command.
+     ```
+     docker run -d -p 8080:80 your-image-name
+     ```
+
+5. **Explore Docker Compose (Optional):**
+   - Define your multi-container application in a `docker-compose.yml` file and use `docker-compose up` to start the services defined in the file.
+
+## Additional Resources
+
+- [Docker Documentation](https://docs.docker.com/)
+- [Docker Hub](https://hub.docker.com/)
+- [Docker Compose Documentation](https://docs.docker.com/compose/)
+
+Happy containerizing!
+
 ## Command Lines
 
 Build an image
