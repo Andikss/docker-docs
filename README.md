@@ -62,5 +62,6 @@ For running my sample setup for Express & React app in a Docker environment, fol
 
 ```bash
 docker build -t *image_name* .
+``````
 
 Happy containerizing!
