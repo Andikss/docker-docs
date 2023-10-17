@@ -38,29 +38,16 @@ Docker creates consistent environments for applications, ensuring they work the 
 
 ## Getting a Trial
 
-To get started with Docker, follow these steps:
+For running my sample setup for Express & React app in a Docker environment, follow these steps:
 
 1. **Install Docker:**
    - [Docker Installation Guide](https://docs.docker.com/get-docker/)
 
-2. **Create a Dockerfile:**
-   - Write a Dockerfile for your application, specifying the base image and necessary configurations.
-
-3. **Build Your Image:**
-   - Use the `docker build` command to build your Docker image from the Dockerfile.
+2. **Run The Image:**
      ```
-     docker build -t your-image-name .
+     docker-compose up -d
      ```
-
-4. **Run Your Container:**
-   - Run your application in a container using the `docker run` command.
-     ```
-     docker run -d -p 8080:80 your-image-name
-     ```
-
-5. **Explore Docker Compose (Optional):**
-   - Define your multi-container application in a `docker-compose.yml` file and use `docker-compose up` to start the services defined in the file.
-
+     
 ## Additional Resources
 
 - [Docker Documentation](https://docs.docker.com/)
