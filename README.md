@@ -47,18 +47,20 @@ For running my sample setup for Express & React app in a Docker environment, fol
      ```
      docker-compose up -d
      ```
-     
+
+> Yes, you're right. That's pretty much it!
+
 ## Additional Resources
 
 - [Docker Documentation](https://docs.docker.com/)
 - [Docker Hub](https://hub.docker.com/)
 - [Docker Compose Documentation](https://docs.docker.com/compose/)
 
-Happy containerizing!
-
 ## Command Lines
 
-Build an image
+> Build an image
 
 ```bash
-docker build -t _image_name_ .
+docker build -t *image_name* .
+
+Happy containerizing!
