@@ -90,6 +90,4 @@ docker run --name <container_name> -p <local_port>:<container_port> --rm -v <pat
 - [Docker Hub](https://hub.docker.com/)
 - [Docker Compose Documentation](https://docs.docker.com/compose/)
 
----
-
 Happy containerizing!
