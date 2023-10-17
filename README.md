@@ -55,7 +55,7 @@ For running my sample setup for Express & React app in a Docker environment, fol
 > Build an image
 
 ```bash
-docker build -t <image_name> 
+docker build -t <image_name> .
 ```
 
 > Run a Container
@@ -80,6 +80,12 @@ docker system  prune -a
 
 ```bash
 docker run --name <container_name> -p <local_port>:<container_port> --rm -v <path_to_project>:<working_dir> -v <working_dir>/node_modules <image_name>
+```
+
+> Remove Images, Containers, and Volumes
+
+```bash
+docker-compose down --rmi all -v
 ```
 
 ---

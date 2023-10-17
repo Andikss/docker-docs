@@ -9,15 +9,18 @@ app.get('/', (req, res) => {
     res.json([
         {
             "id": "1",
-            "title": "Book Review: The Bear & The Nightingales"
+            "username": "AndikaDS",
+            "role": "EXP Laner"
         },
         {
             "id": "2",
-            "title": "Book Review: The Queens & The King"
+            "username": "Ridos",
+            "role": "Gold Laner"
         },
         {
             "id": "3",
-            "title": "Book Review: The Man & The Nightmare"
+            "username": "RestuZT",
+            "role": "Jungler"
         }
     ]);
 });
