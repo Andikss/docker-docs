@@ -48,13 +48,7 @@ For running my sample setup for Express & React app in a Docker environment, fol
      docker-compose up -d
      ```
 
-> Yes, you're right. That's pretty much it!
-
-## Additional Resources
-
-- [Docker Documentation](https://docs.docker.com/)
-- [Docker Hub](https://hub.docker.com/)
-- [Docker Compose Documentation](https://docs.docker.com/compose/)
+> Yes, you're right! That's pretty much it.
 
 ## Command Lines
 
@@ -76,7 +70,7 @@ docker run --name <container_name> -p 3000:4000 -d <image_name>
 docker image rm <image_name>
 ```
 
-> Clean up Docker System
+> Clean Up Docker System
 
 ```bash
 docker system  prune -a
@@ -87,5 +81,15 @@ docker system  prune -a
 ```bash
 docker run --name <container_name> -p <local_port>:<container_port> --rm -v <path_to_project>:<working_dir> -v <working_dir>/node_modules <image_name>
 ```
+
+---
+
+## Additional Resources
+
+- [Docker Documentation](https://docs.docker.com/)
+- [Docker Hub](https://hub.docker.com/)
+- [Docker Compose Documentation](https://docs.docker.com/compose/)
+
+---
 
 Happy containerizing!
