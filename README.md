@@ -62,14 +62,30 @@ For running my sample setup for Express & React app in a Docker environment, fol
 
 ```bash
 docker build -t <image_name> 
-``````
+```
 
---
-
-> Build an image
+> Run a Container
 
 ```bash
-docker build -t <image_name> 
-``````
+docker run --name <container_name> -p 3000:4000 -d <image_name>
+```
+
+> Remove an Image | -f to force
+
+```bash
+docker image rm <image_name>
+```
+
+> Clean up Docker System
+
+```bash
+docker system  prune -a
+```
+
+> Run a Dockerfile
+
+```bash
+docker run --name <container_name> -p <local_port>:<container_port> --rm -v <path_to_project>:<working_dir> -v <working_dir>/node_modules <image_name>
+```
 
 Happy containerizing!
